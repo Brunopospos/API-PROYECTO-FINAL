@@ -1,0 +1,80 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "nombre": "Destornillador",
+      "descripcion": "Destornillador Paleta",
+      "precio": 2000
+    },
+    {
+      "id": 3,
+      "nombre": "Martillo",
+      "descripcion": "Martillo Duro",
+      "precio": 3000
+    },
+    {
+      "id": 4,
+      "nombre": "Taladro",
+      "descripcion": "Taladro industrial",
+      "precio": 1500
+    }
+  ],
+  "empleados": [
+    {
+      "id": 2,
+      "nombre": "Santi A.K.A el pelado",
+      "rol": "Supervisor",
+      "turno": "Tarde"
+    },
+    {
+      "id": 3,
+      "nombre": "Brunito idolo",
+      "rol": "Técnico",
+      "turno": "Noche"
+    },
+    {
+      "id": 4,
+      "nombre": "Cantero A.K.A",
+      "rol": "Programador",
+      "turno": "Vespertino"
+    },
+    {
+      "id": 5,
+      "nombre": "Cantero A.K.A",
+      "rol": "Programador",
+      "turno": "Vespertino"
+    },
+    {
+      "id": 6,
+      "nombre": "Cantero A.K.A",
+      "rol": "Programador",
+      "turno": "Vespertino"
+    }
+  ],
+  "lineasProduccion": [
+    {
+      "id": 2,
+      "nombre": "Línea B",
+      "estado": "inactiva"
+    },
+    {
+      "id": 3,
+      "nombre": "Línea F",
+      "estado": "en espera"
+    }
+  ],
+  "ordenesProduccion": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "cantidad": 1000,
+      "estado": "pendiente"
+    },
+    {
+      "id": 3,
+      "productoId": 3,
+      "cantidad": 800,
+      "estado": "Completado"
+    }
+  ]
+}
